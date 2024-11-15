@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Assistant,-apple-system,BlinkMacsystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+header{
+    display: flex;
+    background-color: peachpuff;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #b6b1b1;
+    
+}
+.logo_container{
+    margin-left:  4%;
+    /* margin-right: 4%; */
+    
+}
+.nav_bar a{
+    margin: 6px;
+    font-size: 14px;
+    color: #282c3f;
+    letter-spacing: .3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 25px 0px;
+}
+.nav_bar a:hover{
+    border-bottom: 2px solid #f54e77;
+}
+.search_bar{
+    height: 40px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+   
+}
+.search_icon{
+    height: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    box-sizing: content-box;
+
+}
+.search_input{
+    background-color: aliceblue;
+    color: #696e79;
+    flex-grow: 1;
+    height: 40px;
+    border: 0px;
+}
+.action_container{
+    margin-right: 17px;
+}
+.banner_image{
+    width: 90%;
+}
+.banner_container{
+    margin: 10px 0px 0px 20px;
+}
+.category_heading{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+    display: flex;
+    flex: initial;
+   
+}
+.footer_container{
+    padding: 30px 0px 40px 0px ;
+    background-color: #FAFBFC;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer_column{
+    display: flex;
+    flex-direction: column;
+}
+.footer_column a{
+    columns: #696b79;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+.footer_column h3{
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+    
+}
+.copyright{
+    color: #696b79;
+    text-align: end;
+    padding: 15px;
+}      
+.all{
+    background-color: lightgoldenrodyellow;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: 5px;
+    text-align: center;
+    font-family: arial;
+    
+   
+    
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  
+  .category_items{
+    display: flex;
+    flex: initial;
+  }
